@@ -1,12 +1,14 @@
 package day47_constructors;
 
 public class Address {
+
     private String street;
     private String city;
     private String state;
     private String zipCode;
     private String country = "USA";
     //constructor method- automatically called
+
     public Address() {
         System.out.println("Address constructor");
         street = "123 unknown st";
