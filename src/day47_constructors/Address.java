@@ -11,10 +11,10 @@ public class Address {
 
     public Address() {
         System.out.println("Address constructor");
-        street = "123 unknown st";
-        city = "Unknown";
-        state = "Unknown";
-        zipCode = "00000";
+        street = "123 known st";
+        city = "known";
+        state = "known";
+        zipCode = "0000";
     }
     //second constructor, overloaded constructor -> provides shortcut to initialize variables
     //in same statement: ex: Address ad = new Address("123 java st", "Boston", "MA", "43213");
@@ -23,6 +23,7 @@ public class Address {
         this.city = city;
         this.state = state;
         this.zipCode = zipCode;
+
     }
 
     public String toString() {
@@ -35,7 +36,7 @@ public class Address {
 
     public void setStreet(String street) {
         if(street.isEmpty() || street.length() > 50) {
-            System.out.println("ERROR: Invalid street");
+            System.out.println("error: Invalid street");
             //System.exit(0);
         } else {
             this.street = street;
