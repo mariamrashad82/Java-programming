@@ -8,6 +8,7 @@ public class StudentObject {
         Student st3 =new Student("Mariam");
         Student st4 =new Student("Marvi");
 
+
         Student st5 =new Student(39);
         Student st6 =new Student("Mariam",39);
     }
