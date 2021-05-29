@@ -12,7 +12,7 @@ public class Student {
     }
 
 public Student(int age){
-    System.out.println("age param constructor | age " + age);
+        System.out.println("age param constructor | age " + age);
 }
 public Student(String name,int age){
     System.out.println("name & age param  : " + name + " :  " + age);
