@@ -10,11 +10,17 @@ public abstract class MyAbstractClass {
 
 }
 
+
+
 class Sub extends MyAbstractClass {
     public void close() {
         System.out.println("Close - abstract method implementation");
     }
 }
+
+
+
+
 
 class MyObjects {
     public static void main(String[] args) {
