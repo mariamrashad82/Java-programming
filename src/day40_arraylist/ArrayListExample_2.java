@@ -1,6 +1,9 @@
 package day40_arraylist;
 import java.util.*;
 public class ArrayListExample_2 {
+
+
+
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(5);
