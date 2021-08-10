@@ -21,7 +21,6 @@ public class MapExamples2 {
         System.out.println("***************************************");
 
 
-
         Map<Integer , Person> map2 = new LinkedHashMap<>();
         map2.put(39 , new Person("MR" , 39));
         map2.put(null , new Person("" , 0));

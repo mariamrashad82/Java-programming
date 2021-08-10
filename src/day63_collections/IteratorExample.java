@@ -11,14 +11,16 @@ public class IteratorExample {
         list.add("samir");
         list.add("mariam");
         list.add("marvi");
+
         System.out.println(list);
 
         Iterator<String> it = list.iterator();
-
+      
 
         it.next();
         it.remove();
-        System.out.println(list);
+        it.hasNext();
+        System.out.println("list  = " + list);
 
         Set<String> names = new HashSet<>();
         names.add("mano");

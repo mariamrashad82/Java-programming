@@ -2,7 +2,7 @@ package interview_coding;
 
 import java.util.Arrays;
 
-public class SameLetters {
+public class SameLettersBoolean1 {
     public static void main(String[] args) {
         System.out.println( same("abc", "abc"));
 
