@@ -5,7 +5,7 @@ package interview_coding;
 //
 //Ex:  removeDup("AAABBBCCC")  ==> ABC
 
-public class RemoveDuplicates1 {
+public class RemoveDuplicates1_String {
     public static void main(String[] args) {
         System.out.println("remove Duplicate=" + removeDup("AAABBBCC"));
     }

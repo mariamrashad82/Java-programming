@@ -1,6 +1,6 @@
 package interview_coding;
 
-public class FindDuplicateChar {
+public class FindDuplicateChar_String {
     public static void main(String[] args) {
         String word = "javvaa";
         String unique ="";
