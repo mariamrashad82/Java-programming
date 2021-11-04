@@ -1,6 +1,5 @@
 package interview_coding;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class MaxSecondNumber {

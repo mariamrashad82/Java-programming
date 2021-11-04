@@ -3,6 +3,7 @@ package interview_coding;
 
 public class SumOfDigitFromString {
     public static void main(String[] args) {
+
         System.out.println( sumOfDigit("gfdf78665564bh768") );
     }
     public static int sumOfDigit(String s){

@@ -5,20 +5,20 @@ public class MoveAllZeros {
 
     public static void main(String[] args) {
         int [] nums = {2, 9, 0, 0, -7, 0, 5, 0, 2, -1, 0};
-        System.out.println(Arrays.toString(moveZerosToTheEnd(nums)));
+     //   System.out.println(Arrays.toString(moveZerosToTheEnd(nums)));
         System.out.println(Arrays.toString(moveZerosToTheFirst(nums)));
     }
 
-    public static int[] moveZerosToTheEnd(int[] nums){
-        int[] zerosAtEnd = new int[nums.length];
+  //  public static int[] moveZerosToTheEnd(int[] nums){
+  //      int[] zerosAtEnd = new int[nums.length];
 
-        for (int i = 0, j=0; i < nums.length; i++) {
-            if (nums[i] != 0){
-                zerosAtEnd[j++] = nums[i];
-            }
-        }
-        return zerosAtEnd;
-    }
+  //      for (int i = 0, j=0; i < nums.length; i++) {
+ //           if (nums[i] != 0){
+ //               zerosAtEnd[j++] = nums[i];
+ //           }
+ //       }
+ //       return zerosAtEnd;
+ //   }
 
 
 

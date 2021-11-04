@@ -1,4 +1,4 @@
-package day54_abstraction;
+package day54_abstraction.student;
 /**
  * -> we add abstract keyword to a class to make it an abstract class.
  * -> We cannot create object of Student class - meaning:
@@ -7,6 +7,7 @@ package day54_abstraction;
  * -> Student class will Parent class for all other types of student related classes
  */
 public abstract class Student {
+
     public void code(String language) {
         System.out.println("Student is coding using " + language);
     }

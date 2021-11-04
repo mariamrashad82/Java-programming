@@ -1,4 +1,4 @@
-package day54_abstraction;
+package day54_abstraction.student;
 
 public class CampusStudent extends Student {
     @Override

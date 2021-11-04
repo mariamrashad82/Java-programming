@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class IsPalindrome {
     public static void main(String[] args) {
-        System.out.println(isPalindrome2(11));
+        System.out.println(isPalindrome2(123321));
 
     }
     public static boolean isPalindrome2(int number) {

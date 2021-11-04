@@ -1,4 +1,5 @@
-package day54_abstraction;
+package day54_abstraction.student;
+
 /**
  * OnlineStudent class will EXTEND Student abstract class
  * This class is considered to be concrete class.

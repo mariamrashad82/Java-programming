@@ -11,8 +11,7 @@ public abstract class NewTestament {
 
 
 
-    public void read()
-    {
+    public void read() {
         System.out.println("Easy to read new testament");
     }
     public void listen() {

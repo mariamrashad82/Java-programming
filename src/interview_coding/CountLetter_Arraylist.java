@@ -10,13 +10,7 @@ public class CountLetter_Arraylist {
 
         int count = 0;
 
-//        for(String word: words){
-//            for(int i=0; i < word.length(); i++) {
-//                if(word.charAt(i) == targetLetter) {
-//                    count++;
-//                }
-//            }
-//        }
+
 
         for(String word: words){
             count += letterInWord(word, targetLetter);
@@ -26,15 +20,6 @@ public class CountLetter_Arraylist {
 
     }
 
-//    public static int letterInWord(String word, char target) {
-//        int count = 0;
-//        for(int i=0; i < word.length(); i++) {
-//            if(word.charAt(i) == target) {
-//                count++;
-//            }
-//        }
-//        return count;
-//    }
 
 
     public static int letterInWord(String word, char target) {

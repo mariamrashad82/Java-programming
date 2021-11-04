@@ -26,7 +26,7 @@ public class Array_FindMinimum {
             int[] maxValue = {2653, 4367, 31231, 8766};
             int min = Integer.MAX_VALUE;
             for (int each : maxValue) {
-                if (each < min) {
+                if (each > min) {
                     min = each;
                 }
             }

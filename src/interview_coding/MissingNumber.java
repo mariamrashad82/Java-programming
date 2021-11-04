@@ -7,7 +7,7 @@ public class MissingNumber {
 
         int[] arr={7,5,6,1,4,2};
 
-        System.out.println(Arrays.toString(arr));
+     //   System.out.println(Arrays.toString(arr));
         System.out.println(missingNumber(arr));
     }
 

@@ -1,4 +1,7 @@
-package day54_abstraction;
+package day54_abstraction.student;
+
+import day54_abstraction.student.CampusStudent;
+import day54_abstraction.student.OnlineStudent;
 
 public class School {
     public static void main(String[] args) {
