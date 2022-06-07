@@ -5,7 +5,7 @@ public class PersonMain {// our class name person has 2 variable string name,int
     int age ;
     char gender;
     public void speak(){
-        System.out.println("person is speaking");
+        System.out.println("person is speaking Eng");
     }
 
     }

@@ -12,11 +12,9 @@ public class Animal {
             System.out.println(type+ " Speak ");
         }
         public void eat(String food){
-
             System.out.println("Eating " + food);
         }
         public void speak(String loud){
-
             System.out.println("Speak " + loud);
         }
 

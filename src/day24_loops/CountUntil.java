@@ -10,7 +10,9 @@ public class CountUntil {
             int start = 1;
 
             while (start <= numberToStop) {
+              //  System.out.print(start + " "); will print infinite
                 System.out.print(start++ + " ");
+
 
 
             }

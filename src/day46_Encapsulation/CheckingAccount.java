@@ -22,6 +22,8 @@ public class CheckingAccount {
         return type;
     }
 
+
+
     public void setBalance(double balance) {
         this.balance = balance;
     }

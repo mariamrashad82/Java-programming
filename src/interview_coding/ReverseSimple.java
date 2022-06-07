@@ -4,7 +4,7 @@ public class ReverseSimple {
     public static void main(String[] args) {
 
 
-        String name = "Alper Aslan";
+        String name = "God Is Love";
         String reversed = new StringBuilder(name).reverse().toString();
         System.out.println(reversed);
 

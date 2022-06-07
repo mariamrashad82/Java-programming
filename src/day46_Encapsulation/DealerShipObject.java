@@ -19,15 +19,15 @@ public class DealerShipObject {
         System.out.println(car1.toString());
         System.out.println(car1);
 
-        Car alfaromio = new Car();
-        alfaromio.setModel("Alfa Romio");
-        alfaromio.setMileage(17655);
-        alfaromio.setYear(2020);
+        Car alfaRomeo = new Car();
+        alfaRomeo.setModel("Alfa Romeo");
+        alfaRomeo.setMileage(17655);
+        alfaRomeo.setYear(2020);
 
-        System.out.println("Model = " + alfaromio.getModel());
-        System.out.println("year = " + alfaromio.getYear());
-        System.out.println("mileage = " + alfaromio.getMileage());
-        System.out.println(alfaromio);
+        System.out.println("Model = " + alfaRomeo.getModel());
+        System.out.println("year = " + alfaRomeo.getYear());
+        System.out.println("mileage = " + alfaRomeo.getMileage());
+        System.out.println(alfaRomeo);
 
 
 

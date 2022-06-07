@@ -3,6 +3,7 @@ import java.util.*;
 public class ArraysUtil {
     public static void main(String[] args) {
         int [] nums = {9, 21, 10, -7, 10,100,80, 5, 3, 18};
+        // System.out.println(nums);
        // print all num same line and convert from int to string
        System.out.println(Arrays.toString(nums));
        // sort nums

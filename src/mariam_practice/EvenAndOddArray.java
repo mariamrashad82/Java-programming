@@ -21,12 +21,6 @@ public class EvenAndOddArray {
             }
 
 
-
-
-
-
-
-
         }
         System.out.println("odd = " + odd);
         System.out.println("Even = " + even);

@@ -1,6 +1,6 @@
 package day24_loops;
 
-public class Alphabet {
+public class AlphabetWhile_Reverse {
     public static void main(String[] args) {
         char letter = 'A';
         while (letter <= 'Z') {

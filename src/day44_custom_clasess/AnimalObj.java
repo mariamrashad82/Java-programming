@@ -6,9 +6,12 @@ public class AnimalObj {
         animal.type="Dog";
         System.out.println(animal.type);
         animal.eat();
+
         animal.eat("grass");
+
         animal.speak();
-        animal.speak("HO HO");
+
+        animal.speak();
 
         //creat new animal object
         Animal catsObj = new Animal();
